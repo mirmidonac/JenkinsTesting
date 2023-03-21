@@ -8,7 +8,7 @@ public class HelloWorld {
 	}
 }
 
-class GenerateRandom {
+public class GenerateRandom {
     public static void main( String args[] ) {
       // Instance of random class
       Random rand = new Random(); 
