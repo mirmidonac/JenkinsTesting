@@ -18,7 +18,7 @@ pipeline {
         stage('Final STAGE') {
             steps { 
                 echo 'End of the rode'
-                sh 'node -version'
+                sh 'node -v'
             }
         }
     }
