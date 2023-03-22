@@ -1,0 +1,13 @@
+pipeline {
+
+    agend any
+
+    parameters {
+        booleanParam(defaultValue: false, description:"Koji je status? Trenutno je false", name:"mojBoolean")
+    }
+    stages {
+        stage ("Demo") {
+            echo "booleanParams is set to ${params.mojBoolean}" 
+        }
+    }
+}
