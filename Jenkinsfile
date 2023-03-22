@@ -15,7 +15,7 @@ pipeline {
             }
             steps {
                 sh 'mvn --version'
-                sh 'node -v'
+                sh 'java -version'
             }
         }
     }
