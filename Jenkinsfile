@@ -1,7 +1,7 @@
 pipeline {
     agent none
     parameters {
-        string(name: 'IME', defaultValue: 'Gospodin iz GIT-a', description: 'Please tell me your name?')
+        string(name: 'IME', defaultValue: 'Gospodin iz GIT-a')
     }
     stages {
         stage('Prvi STAGE') {
