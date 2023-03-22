@@ -12,7 +12,6 @@ pipeline {
         stage('Drugi STAGE') {
             steps { 
                 echo 'Oh snap you are here'
-                sh 'mvn --version'
                 sh 'java -version'
             }
         }
