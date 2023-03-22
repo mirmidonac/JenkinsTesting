@@ -5,9 +5,9 @@ public class HelloWorld {
 	Random rand = new Random(); 
 	System.out.println("*******HELLO MARE CARE********");
 	System.out.println("*******!!!!WEBHOOK ACTIVATED!!!!********");	
-	int rand = 4 ; 
+	int broj = 4 ; 
       int upperbound = 25;
-      System.out.println(rand);
+      System.out.println(broj);
       System.out.println(upperbound);
      System.out.println(rand);
 	}
