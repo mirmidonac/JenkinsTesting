@@ -18,7 +18,8 @@ pipeline {
         stage('Final STAGE') {
             steps { 
                 echo 'End of the rode'
-                sh 'node -v'
+                sh 'ls -la /home'
+                sh 'open /Users/mpa/Desktop/DivisionX.png'
             }
         }
     }
