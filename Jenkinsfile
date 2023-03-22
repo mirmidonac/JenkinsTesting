@@ -13,6 +13,9 @@ pipeline {
             steps { 
                 echo 'Oh snap you are here'
             }
+            steps {
+                sh 'mvn --version'
+            }
         }
     }
 }
